@@ -41,6 +41,10 @@ def aoh_update(aoh, row, key, new_value)
 end
 
 
-aoh_update(assembled_aoh, 3, :occupation, "Prostitute")
+result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
 
-puts assembled_aoh
+
+
+
+
+
