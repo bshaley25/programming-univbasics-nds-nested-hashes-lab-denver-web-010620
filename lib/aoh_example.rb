@@ -40,8 +40,7 @@ def aoh_update(aoh, row, key, new_value)
   aoh[row][key] = new_value
 end
 
-local_copy_of_aoh = assembled_aoh.dup
-result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
+result = aoh_update(, 1, :name, "Joelle van Dyne (PGOAT)")
 
 puts result
 
